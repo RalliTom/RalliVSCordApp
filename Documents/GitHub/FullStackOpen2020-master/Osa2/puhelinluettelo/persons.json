@@ -1,0 +1,69 @@
+{
+  "persons": [
+    {
+      "name": "Arto Hellas",
+      "number": "041-5025022",
+      "id": 1
+    },
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": 2
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": 3
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": 4
+    },
+    {
+      "name": "Kuppa Hartikainen",
+      "number": "010",
+      "id": 807
+    },
+    {
+      "name": "Seppe Taalasmaa",
+      "number": "0555055029502",
+      "id": 469
+    },
+    {
+      "name": "Pepe Ahlqvist",
+      "number": "666",
+      "id": 772
+    },
+    {
+      "name": "Max Gerring",
+      "number": "95246240",
+      "id": 190
+    },
+    {
+      "name": "Kimi Räikkönen",
+      "number": "09-555-252656",
+      "id": 174
+    },
+    {
+      "name": "Kurre Lindström",
+      "number": "3032t495",
+      "id": 463
+    },
+    {
+      "name": "Ismo Laitinen",
+      "number": "04020240",
+      "id": 890
+    },
+    {
+      "name": "Skid Row",
+      "number": "6904369093",
+      "id": 944
+    },
+    {
+      "name": "Pate Kustaajärvi",
+      "number": "666",
+      "id": 79
+    }
+  ]
+}

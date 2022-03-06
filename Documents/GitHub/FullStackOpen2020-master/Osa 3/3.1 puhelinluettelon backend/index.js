@@ -11,7 +11,7 @@ let persons = [
   },
   {
     id: 2,
-    name: "Ada Lovelcae Hellas",
+    name: "Ada Lovelace",
     number: "39-44-5323523"
   },
   {
@@ -26,15 +26,16 @@ let persons = [
   }
 ]
 
-app.get('/api/persons/:id', (request, response) => {
+app.get('/api/persons/', (request, response) => {
   const id = Number(request.params.id)
   const person = persons.find(person => person.id === id)
-  
-  if (person) {
-    response.json(person)
-  } else {
-    response.status(404).end()
-  }
+  console.log(persons.person);
+
+  //if (person) {
+    response.json(persons)
+  //} else {
+  //  response.status(404).end()
+  //}
 })
 
 app.delete('/api/persons/:id', (request, response) => {
@@ -51,7 +52,7 @@ const generateId = () => {
   return maxId + 1
 }
 
-/*app.post('/api/persons', (request, response) => {
+app.post('/api/persons', (request, response) => {
   const body = request.body
 
   if (!body.content) {
@@ -70,7 +71,7 @@ const generateId = () => {
   notes = notes.concat(note)
 
   response.json(note)
-})*/
+})
 
 const PORT = 3001
 app.listen(PORT, () => {
